@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="360 VR rotation" category="Distort">
+	<row name="DestraSinistra">
+		<field type="double" min="0" max="360" default="0" id="h_angle"/>
+	</row>
+    <row name="Sugiu">
+		<field type="double" min="-90" max="90" default="0" id="v_angle"/>
+	</row>
+	<shader vert="common.vert" frag="360_rotation.frag"/>
+</effect>
