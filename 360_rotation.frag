@@ -1,5 +1,5 @@
 /*Olive GLSL effect to pan angles of VR 360 videos
-    Copyright (C) 2019 Massimo Gismondi
+    Copyright © 2019 Massimo Gismondi
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
