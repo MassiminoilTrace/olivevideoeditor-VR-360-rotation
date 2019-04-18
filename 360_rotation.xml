@@ -16,12 +16,15 @@ Olive GLSL effect to pan viewing angles of VR 360 videos
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
 <?xml version="1.0" encoding="UTF-8"?>
-<effect name="360 VR rotation" category="Distort">
-	<row name="DestraSinistra">
-		<field type="double" min="0" max="360" default="0" id="h_angle"/>
+<effect name="Equirectangular rotation" category="VR 360°">
+	<row name="Angle1">
+		<field type="double" min="0" max="360" default="180" id="angle_x_axis"/>
 	</row>
-    <row name="Sugiu">
-		<field type="double" min="-90" max="90" default="0" id="v_angle"/>
+    <row name="Angle2 orizzontale">
+		<field type="double" min="0" max="360" default="180" id="angle_z_axis"/>
 	</row>
-	<shader vert="common.vert" frag="360_rotation.frag"/>
+    <row name="Angle3 verticale">
+		<field type="double" min="0" max="360" default="180" id="angle_y_axis"/>
+	</row>
+	<shader vert="common.vert" frag="360_tilt.frag"/>
 </effect>
