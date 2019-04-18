@@ -5,3 +5,5 @@ This software is protected under the GPLv3 license or later versions.
 See COPYING for details.
 
 ©2019 Massimo Gismondi
+
+here's a demo of the first working version https://youtu.be/ygNV69hfs1U
