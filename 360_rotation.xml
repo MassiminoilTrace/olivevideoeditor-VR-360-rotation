@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="Equirectangular rotation" category="VR 360°">
+	<row name="Tilt">
+		<field type="double" min="0" max="360" default="180" id="angle_x_axis"/>
+	</row>
+    <row name="Horizontal rotation">
+		<field type="double" min="0" max="360" default="180" id="angle_z_axis"/>
+	</row>
+    <row name="Vertical rotation">
+		<field type="double" min="0" max="360" default="180" id="angle_y_axis"/>
+	</row>
+	<shader vert="common.vert" frag="360_rotation.frag"/>
+</effect>
 <!--
 Olive GLSL effect to pan viewing angles of VR 360 videos
     Copyright (C) 2019 Massimo Gismondi
@@ -15,16 +28,3 @@ Olive GLSL effect to pan viewing angles of VR 360 videos
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
-<?xml version="1.0" encoding="UTF-8"?>
-<effect name="Equirectangular rotation" category="VR 360°">
-	<row name="Tilt">
-		<field type="double" min="0" max="360" default="180" id="angle_x_axis"/>
-	</row>
-    <row name="Horizontal rotation">
-		<field type="double" min="0" max="360" default="180" id="angle_z_axis"/>
-	</row>
-    <row name="Vertical rotation">
-		<field type="double" min="0" max="360" default="180" id="angle_y_axis"/>
-	</row>
-	<shader vert="common.vert" frag="360_tilt.frag"/>
-</effect>
