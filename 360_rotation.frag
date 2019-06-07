@@ -15,7 +15,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 #version 120
-//CIAOCIAOCIAO
 uniform sampler2D tex0;
 varying vec2 vTexCoord;
 #define M_PI 3.1415926535897932384626433832795
