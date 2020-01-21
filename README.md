@@ -1,5 +1,6 @@
 # olivevideoeditor-VR-360-rotation
-This effect is still a draft.
+This effect is still a draft
+
 A GLSL effect to pan the default viewing angle in a VR equirectangular video
 
 This software is protected under the GPLv3 license or later versions.
